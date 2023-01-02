@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartBookStore"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".View.AddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.liste4"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.liste3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.liste2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.liste1"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Categorie.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.SmartBookStore.NoActionBar" />
+        <activity
+            android:name=".inscrit"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profil"
+            android:exported="false" />
+        <activity
+            android:name=".authentif"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

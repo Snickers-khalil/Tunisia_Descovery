@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ro"
+    android:id="@+id/cat"
+    tools:context=".ui.Categorie.MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="?attr/actionModeCloseDrawable" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="?android:attr/actionModeWebSearchDrawable" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="categories"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:background="@drawable/dv"/>
+
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="268dp"
+            android:layout_marginBottom="62dp"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:text="DEVLOPPMENT PERSONNEL"
+            android:id="@+id/btn1"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"></Button>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/li" />
+
+        <Button
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="61dp"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:text="LITTERATURE"
+            android:id="@+id/btn2"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/internet"/>
+
+        <Button
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="61dp"
+            android:padding="10dp"
+            android:text="INFORMATIQUE ET INTERNET"
+            android:id="@+id/btn3"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/medcine"/>
+
+        <Button
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="61dp"
+            android:padding="10dp"
+            android:text="SCICENE ET MEDCINE"
+            android:id="@+id/btn4"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

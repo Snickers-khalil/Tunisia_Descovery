@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tof"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscrivez-Vous !"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Nom"
+            android:id="@+id/nom"
+            android:layout_marginBottom="15dp"
+            android:drawableStart="@drawable/person"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:hint="Prenom"
+            android:drawableStart="@drawable/person"
+
+            android:id="@+id/Prenom"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="CIN"
+            android:id="@+id/cin"
+            android:drawableStart="@drawable/cin"
+            android:inputType="number"/>
+        <EditText
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom d'utilisateur"
+            android:drawableStart="@drawable/login"
+            android:gravity="center"
+            android:id="@+id/logiin"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableStart="@drawable/email"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="mot de pass"
+            android:layout_marginBottom="15dp"
+            android:drawableStart="@drawable/password"
+            android:id="@+id/pass"
+            android:inputType="textPassword"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:drawableStart="@drawable/password"
+            android:hint="confirmer mot de passe "
+            android:id="@+id/pass1"
+            android:inputType="textPassword"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Adresse "
+            android:drawableStart="@drawable/adresse"
+            android:id="@+id/adresse"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPostalAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Telephone"
+            android:drawableStart="@drawable/phone"
+            android:id="@+id/Telephone"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/x"
+        android:layout_margin="20dp"
+        android:id="@+id/enr"/>
+
+
+</LinearLayout>

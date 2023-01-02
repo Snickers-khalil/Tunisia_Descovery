@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tof"
+    tools:context=".ProfilFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        tools:ignore="ExtraText">
+        //nom
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/person" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre nom"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="107dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/nomv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/nomv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //prenom
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/person" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prenom"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre prenom"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="82dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/prenomv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/prenomv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //CIN
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/cin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIN"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre CIN"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="118dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/cinv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/cinv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //login
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/login" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre Login"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/loginv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/loginv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //email
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/email" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre Email"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="106dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/emailv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/emailv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //password
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/password" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pas"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre Mot de passe"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/passwordv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/passwordv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //adresse
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/adresse" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresse"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre Adresse"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="86dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/adressev"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/adressev"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        //telephone
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="19dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/phone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telephone"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="votre Telephone"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="70dp"
+                android:textColor="@color/gris"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/telv"/>
+        </LinearLayout>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/telv"
+            android:background="@color/beige"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

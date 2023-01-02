@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Tunisia Discover</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="kairaouan">Située au centre de la Tunisie dans une plaine à une distance presque égale de la mer et de la montagne, Kairouan est la plus ancienne base arabo-musulmane du Maghreb (670 apr. J.-C.) et l’une de ses principales villes saintes. Capitale de l’Ifriqiya pendant cinq siècles, elle a été un lieu de diffusion exceptionnel de la civilisation arabo-musulmane. Kairouan constitue un témoignage unique sur les premiers siècles de cette civilisation et sur son développement architectural et urbanistique. Le site inscrit est un bien en série qui comprend la médina et ses faubourgs, les Bassins des Aghlabides et la Zawiya de Sidi Sahib. La médina (54 ha) et ses faubourgs (20 ha) est un ensemble urbain qui présente toutes les composantes d’une ville arabo-musulmane. </string>
+
+    <string name="tunis">Tunis est l\'immense capitale de la Tunisie, un pays d\'Afrique du Nord. Elle se trouve le long du lac de Tunis, juste en retrait du golfe de Tunis, sur la mer Méditerranée. Elle accueille une médina centenaire et le Bardo, un musée archéologique où des célèbres mosaïques romaines sont exposées dans un complexe palatial du XVe siècle. Les ruines de l\'ancienne Carthage, faisant penser à un parc, se situent dans les quartiers nord de la ville. </string>
+
+    <string name="bardo">Le musée national du Bardo est un musée de Tunis, situé dans la banlieue du Bardo. C’est l’un des plus importants musées du bassin méditerranéen et le second musée du continent africain après le musée égyptien du Caire par la richesse de ses collections. Il retrace l’histoire de la Tunisie sur plusieurs millénaires et à travers plusieurs civilisations par le biais d’une large variété de pièces archéologiques.</string>
+
+    <string name="carthage">Le site archéologique de Carthage est un site dispersé dans la ville actuelle de Carthage (Tunisie). De renommée mondiale, le site archéologique de Carthage est, sans doute, le monument historique le plus célèbre de Tunisie, voire de tout le Maghreb. Classée au patrimoine mondial de l’UNESCO à partir de 1979, la cité antique de Carthage fût le berceau de plusieurs civilisations qui ont marqué l’Histoire de l’Humanité.</string>
+    <string name="zitouna">La mosquée Zitouna est la principale mosquée de la médina de Tunis , elle est le sanctuaire le plus ancien et le plus vaste de la capitale. C’est le nombril de la ville de Tunis, le noyau autour duquel s’est développé la ville de tunis.</string>
+    <string name="medinaT">La médina de Tunis est une médina tunisienne, cœur historique de Tunis, considérée comme une des villes arabo-musulmanes les mieux conservées et inscrite depuis 1979 au patrimoine mondial de l’Unesco. Elle fût l’une des villes les plus importantes et les plus riches du monde islamique. Quelque 700 monuments dont des palais, des mosquées, des mausolées, des medersa et des fontaines témoignent de ce remarquable passé.</string>
+    <string name="stpaul">La cathédrale Saint-Vincent-de-Paul est la cathédrale de rite catholique de la ville de Tunis. Située à l’Avenue Habib Bourguiba au centre-ville de Tunis. Elle a été construite entre 1893 et 1897, elle est bâtie dans un style romano-byzantin. La Cathédrale Saint Vincent de Paul reçoit un nombre important de touristes, de fidèles et de visiteurs.</string>
+    <string name="bebbhar">Bab El Bhar  est l’une des portes de la médina de Tunis , c’est un monument symbolique de l’organisation urbaine de Tunis héritée de son histoire : érigée au centre de la place des Victoires, cette porte marque la séparation entre la médina et la ville nouvelle de Tunis. Elle se constitue d’un arc surbaissé et surmonté d’un parapet à créneaux.</string>
+    <string name="aghlab">Quoi de plus insolite que de découvrir deux bassins remplis d’eau au milieu du désert. C’est pourtant ce que vous allez voir à Kairouan, si vous vous rendez aux bassins des Aghlabides. En réalité, ces bassins, construits au 9ème siècle, servaient de réserve d’eau à la ville de Kairouan. De plus, ils n’étaient pas seulement deux mais quatorze. On retrouvait des grands bassins, de 55 000 mètres cubes, puis des plus petits qui servaient de bassins de décantation. Ils étaient alimentés par un aqueduc, mesurant 36 km de long, acheminant l’eau depuis les montagnes.</string>
+    <string name="mosqueK">La grande mosquée de Kairouan appelée aussi Oqba Ibn Nafi, nom de son fondateur, est la plus grande mosquée de l’Afrique du Nord. Elle a aussi la réputation d’être la plus belle de toute la Tunisie ! Elle a été construite au 7ème siècle et est classée au Patrimoine Mondial de l’Unesco. Cette mosquée est réellement une visite incontournable à faire à Kairouan. Vous pourrez l’explorer seul, mais avec un guide la visite ne sera qu’encore plus enrichissante. En effet, vous en apprendrez énormément à propos de ce somptueux édifice. Pour les femmes, pensez à emporter avec vous un paréo ou un foulard qui pourra servir à couvrir vos épaules et votre tête durant la visite. Sinon, la sécurité vous prêtera un foulard à l’entrée.</string>
+    <string name="beyM">La maison du Bey, appelée aussi maison du Gouverneur, est une somptueuse et ancienne demeure. Il y a de nombreuses années, elle était réellement l’habitation du gouverneur (Bey pour les Tunisiens). Depuis, elle s’est transformée en musée du tapis oriental. La visite est entièrement gratuite, vous pourrez donc découvrir les pièces luxueuses de cette maison et ses secrets. Dans chaque pièce, ou presque, vous admirerez de magnifiques tapis noués, entièrement fait main. D’ailleurs, vous découvrirez la manière dont sont confectionnés ces derniers. En effet, une fabrique est établie dans les lieux. Vous pourrez vous offrir, si vous le souhaitez, un tapis noué original et artisanal typiquement tunisien.  </string>
+    <string name="souq">Les souks sont une visite incontournable à faire à Kairouan. Ils sont réputés dans l’intégralité du Maghreb. Situés dans les rues de la médina, vous trouverez forcément votre bonheur dans ces immenses souks. Bien organisés, vous trouverez plusieurs « secteurs » renfermant une catégorie de « produits » approximative. En effet, vous trouverez un souk pour les bijoux, un autre pour le verre, puis un pour les parfums, etc. Celui à ne pas manquer est le souk El Zarbia. Kairouan a une réputation mondiale dans la confection des tapis noués. Vous en trouverez de toutes les couleurs, à tous les prix, que bien évidemment vous marchanderez !</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about">Home</string>
+    <string name="categorie">Region</string>
+    <string name="liste_livre">Liste</string>
+    <string name="profil">Profil</string>
+    <string name="Deconnexion">Deconnexion</string>
+    <string name="user">Nom d\'utilisateur</string>
+    <string name="pas">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tunisia_discover">Tunisia Discover</string>
+    <string name="a_la_plage">Avec son fabuleux littoral, ses 575 kilomètres de plages de sable fin et son chapelet d’îles paradisiaques, la Tunisie est une des destinations les plus réputées dela Méditerranée pour des vacances au bord de l’eau. De Nabeul à Mahdia, de Tabarka à Djerba, les hôtels aux jardins luxuriants se pressent le long de la côte. La mer s’y prélasse en un sublime miroir bleu ; les enfants jouent dans l’eau, les dômes multicolores des parachutes ascensionnels s’élèvent dans le ciel, les planches à voile s’entrecroisent, les jetskis vrombissent… Le large choix d’hôtels, d’hôtels-clubs,d’activités et de loisirs vous promet des vacances d’été bien remplies. On le sait moins, mais on trouve aussi en Tunisie nombre de plages poétiques hors des sentiers battus,parsemées de rochers aux formes insolites, ou bordées de palmiers et de dunes dorées.</string>
+
+    <string name="lesiles">1250 km de côte, une multitude d’îles et îlots.
+Au nord, à 36 milles de Tabarka, l’archipel de la Galite compte six îlots ; il est un but d’excursion favori des plaisanciers.
+        Cet archipel granitique inhabité est un petit paradis de nature préservée. De part et d’autre de Bizerte, la côte est ponctuée de caps et de baies au charme enchanteur ; un chapelet d’îlots entoure le littoral – îles Cani, îles Fratelli, île Pilau et île Plane. Depuis Gammarth, voisine de Carthage, vous pourrez vous rendre par la mer dans les petites criques sauvages du cap Bon et à l’île de Zembra, réserve naturelle et Parc national. Et si vous passez par la côte du Sahel près de Sousse, vous rencontrerez la petite île Kuriat.
+        Mais pour se reconnecter avec la nature, quoi de mieux qu’un séjour sur une île ensoleillée du Sud tunisien,
+        loin du tumulte et de la grisaille ? Djerba et l’archipel de Kerkennah,
+        à l’orée du Grand Sud, émerveillent par leur mer aux reflets changeants, le doux balancement des palmiers,
+        le silence des paysages enveloppés d’un manteau sablonneux. Les îles Kerkennah (14 îles et îlots)
+        sont restées un paradis préservé. La plus célèbre des îles tunisiennes, Djerba, est entourée de deux îlots
+        (El Guettaya Gablia et El Guettaya Bahria). Et si la côte nord de Djerba est devenue une grande station touristique,
+        l’arrière-pays et de merveilleuses plages de sable fin ont gardé toute leur sérénité. Vous pourrez y loger
+        dans un ancien manoir de campagne – appelé ici menzel –, dans une maison de village ou dans un des nombreux fondouks
+        où s’installaient autrefois les marchands voyageurs. Sous une voûte blanchie à la chaux,
+        ou dans une mezzanine rafraîchie par la brise,
+        vous y apprécierez toute la simplicité de la vie traditionnelle des îles.</string>
+
+    <string name="camping">Le camping : est l’un des sports les plus amusants, vous fera rencontrer des paysages inédits. C’est une source de bonheur
+En tunisie, les meilleurs lieux de camping: Nabeul, Kef Abed Bizerte, Jandouba, au Sahara de Tozeur ...</string>
+
+    <string name="buggs"> Raids et rallyes : partez en randonnée motorisée en Tunisie,
+        que ce soit sur route ou en ride-off-road. Dans le sud saharien,
+        les dunes de sable succèdent aux canyons et aux oasis en pleine montagne.</string>
+
+    <string name="les_evennements">LES MEILLEURES ACTIVITÉS EN PLEIN AIR À FAIRE EN TUNISIE</string>
+
+    <string name="taylo"> Tyrolienne: Une activité enthousiaste, qui vous donne de l’Energie et excrète de l’Adrénaline.
+Vous pouvez pratiquer laTyrolienne à Zaghouan</string>
+
+    <string name="velo">Vélo : un entrainement cardio bénéfique qui puisse dans une nouvelle source d’énergie.
+En tunisie, vous pouvez pratiquer cette activité avec des clubs ou bien louer un vélo à la marsa, Carthage, ou essayer le circuit de Douz à Ksar Ghilane</string>
+
+    <string name="plangee"> Plongée sous-marine : une activité de découverte et d’apprentissage dans le but de l’exploration et de la chasse.
+Les meilleures destinations de plongée sous-marine à Haouaria, Monastir et Djerba</string>
+
+    <string name="golf"> Golf : La Tunisie a de quoi séduire les golfeurs, des différents parcours, bien conçus et pouvant s’adapter à différents niveaux de jeu.
+En Tunisie, il existe plusieurs parcours de Golf: The Residence Tunis golf Course à Gammarth, Golf Citrus à Hammamet, Tabarka et Djerba...</string>
+
+    <string name="kayak"> Kayak : Partez à l’aventure en canoé-kayak, en famille ou entre amis, vous profiterez d’une balade en canoé riche en sensations.
+Vous pouvez faire du Kayak à Sousse, Bizerte, Kélibia...</string>
+
+    <string name="paddle"> Paddle : Profitez d’un moment de détente et de découverte lors d’une balade en paddle, entre amis, en famille ou en solo
+Cette activité est également pratiquée à la Marsa, Sidi Bou Said... </string>
+    <string name="sahara">• Le choix d’hébergement de qualité, les hôtels avec vue sur les dunes. • L’accès immédiat au désert de sable. • La présence de la culture nomade, le grand marché hebdomadaire. • Les possibilités d’activités (ULM, quad, ski de dunes, char à voile et speed-sail sur le Chott el-Jerid). • Les nombreux campements sahariens.</string>
+    <string name="artisanat">La Tunisie est riche d’une longue tradition de tissage de tapis. On raconte qu’au 19e siècle, la fille du gouverneur ottoman aurait été la première, à Kairouan, à tisser un tapis de haute laine pour l’offrir à l\'une des mosquées de la ville. Puis la tradition se serait perpétuée, faisant de Kairouan la capitale du tapis en Tunisie.</string>
+
+
+</resources>
