@@ -16,7 +16,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
-import iset.pidev.smartbookstore.Adapter.LiverAdapter;
 import iset.pidev.smartbookstore.R;
 import iset.pidev.smartbookstore.livre.Livre;
 import iset.pidev.smartbookstore.retro.ApiInterface;

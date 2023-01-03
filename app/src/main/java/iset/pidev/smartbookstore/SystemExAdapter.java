@@ -24,7 +24,6 @@ public class SystemExAdapter extends ArrayAdapter {
         this.nom = nom;
         this.detaille = detaille;
     }
-
     @NonNull
 
     public View getView(int info, @Nullable View convertView, @NonNull ViewGroup parent) {

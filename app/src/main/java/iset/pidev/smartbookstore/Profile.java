@@ -26,25 +26,6 @@ public class Profile extends AppCompatActivity {
                 FragmentTransaction transaction=fm.beginTransaction();
                 transaction.replace(R.id.frag,profilFragment).commit();
 
-//        edite_bn=findViewById(R.id.edit_btn);
-//        edite_bn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(Profile.this, edit_profil.class);
-//                startActivity(i);
-//            }
-//        });
-
-//       logout=findViewById(R.id.logout_v);
-//        logout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Profile.this, authentif.class);
-//                startActivity(intent);
-//                Toast.makeText(Profile.this,"Logging out...",Toast.LENGTH_SHORT).show();
-//                SessionManager.logOut();
-//            }
-//        });
         back=findViewById(R.id.back_btn);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
